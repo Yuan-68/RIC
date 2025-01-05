@@ -12,10 +12,10 @@ import time
 
 class generate_bwamapjobs:
 
-	def __init__ (self,path='/Lustre02/Yangyuan/219_ATAC/'):
+	def __init__ (self,path='ATAC'):
 
 		self.path = path
-		self.pathin = '/Lustre02/Yangyuan/219_ATAC/'
+		self.pathin = 'ATAC'
 		self.input = open(self.path+'/filelist.txt','r')
 
 	def generate_bwamapjobs (self):
