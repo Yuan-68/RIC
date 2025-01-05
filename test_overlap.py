@@ -13,18 +13,6 @@ import time
 import math
 import random
 
-#XX, X_Y
-#y – y1={ (y2 – y1)/ (x2 – x1)}(x – x1)
-#export PATH=/Lustre01/tangqianzi/software/anaconda2new/bin/:$PATH
-#Muscle_TM4.5kb.raw.PEI.xls.keep_PEIs.pick.FDR6_Dis25k.cut_0.2OE.keepbyFrequency
-#just test SV and enhancers
-#just test SV and promoters
-#stats.ttest_ind()[1]
-#startid: boundary spots
-#endid: in_spots
-#randomly sample 20 spots for each distance
-#dupplicated ids allowed here!!!
-
 class autoremove_bam:
 
 	def __init__ (self):
